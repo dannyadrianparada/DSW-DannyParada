@@ -1,17 +1,54 @@
-body{
-    background: url('../img/fondo.jpg') no-repeat;
+*{
+    font-family: Verdana;
 }
-.header1{
+body {
+    background: url('../img/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
     width: 99.99%;
     border-radius: 7px;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter:blur(50px);
+    background-color: rgba(40, 55, 71, 0.1);
+    backdrop-filter: blur(50px);
     display: flex;
     justify-content: center;
     box-shadow: 2px 2px 7px black;
 }
-h1{
-    font-family: Verdana;
+
+h1 {
     color: white;
-    text-shadow: 2px 2px 7px black;
+    text-shadow: 5px 5px 10px black;
+    padding: 7px;
+    font-size: 300%;
+    text-align: center;
+}
+
+nav{
+    width: 99.99%;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(1px);
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 7px black;
+    margin-top: 7px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B4290B;
+    list-style: none;
+}
+
+ul li{
+    box-shadow: 2px 2px 7px black;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
 }
